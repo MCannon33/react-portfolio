@@ -10,12 +10,14 @@ function Portfolio() {
         turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare
         dignissim.
       </p>
-      <img
-        src={earthquake}
-        className="my-2"
-        style={{ width: "50%" }}
-        alt="project1"
-      />
+      <a href="https://jbeedle19.github.io/movers-not-shakers/">
+        <img
+          src={earthquake}
+          className="my-2"
+          style={{ width: "50%" }}
+          alt="project1"
+        />
+      </a>
     </section>
   );
 }

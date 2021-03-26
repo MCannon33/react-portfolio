@@ -5,7 +5,7 @@ function Header(props) {
     <header className="flex-row space-between px-100">
       <h1>Header</h1>
       {/* <img src={earthquake} alt="wooden background"></img> */}
-      {/* {props.children} */}
+      {props.children}
     </header>
   );
 }

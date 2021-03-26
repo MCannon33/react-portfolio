@@ -4,11 +4,14 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 function Nav(props) {
   const { pages = [], setCurrentPage, currentPage } = props;
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
+    console.log(currentPage);
+    if (currentPage && currentPage.name) {
+      document.title = capitalizeFirstLetter(currentPage.name);
+    }
   }, [currentPage]);
   return (
     <nav style={{ backgroundColor: "pink", height: 100, width: "100%" }}>
-      <ul className="flex-row">
+      <ul className="nav flex-row">
         {pages.map((Page) => (
           <li
             className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}

@@ -4,7 +4,7 @@ import earthquake from "../../assets/earthquake.jpeg";
 function Resume() {
   return (
     <section className="my-5">
-      <h1 id="portfolio">Portfolio</h1>
+      <h1 id="resume">Resume</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum
         turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare
