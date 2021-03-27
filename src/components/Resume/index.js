@@ -1,21 +1,20 @@
 import React from "react";
-import earthquake from "../../assets/earthquake.jpeg";
+import computer from "../../assets/computer.png";
 
 function Resume() {
   return (
-    <section className="my-5">
+    <section style={{ backgroundColor: "#e6dbd0" }} className="my-5">
       <h1 id="resume">Resume</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum
-        turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare
-        dignissim.
+        <h3>Proficient In:</h3>
+        <ul className="rez">
+          <li>Google Suite</li>
+          <li>CSS</li>
+          <li>ReAct</li>
+          <li>GitHub</li>
+        </ul>
       </p>
-      <img
-        src={earthquake}
-        className="my-2"
-        style={{ width: "50%" }}
-        alt="project1"
-      />
+      <button>Download Resume</button>
     </section>
   );
 }
