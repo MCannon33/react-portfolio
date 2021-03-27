@@ -1,4 +1,4 @@
-# Social-Media-Api
+# React App 101
 
 ## Description
 
