@@ -1,4 +1,3 @@
-// import { className } from "postcss-selector-parser";
 import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 function Nav(props) {
@@ -10,8 +9,8 @@ function Nav(props) {
     }
   }, [currentPage]);
   return (
-    <nav style={{ backgroundColor: "pink", height: 100, width: "100%" }}>
-      <ul className="nav flex-row">
+    <nav style={{ backgroundColor: "#FAD4C0", height: 100 }}>
+      <ul className="nav ">
         {pages.map((Page) => (
           <li
             className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}
@@ -63,3 +62,4 @@ export default Nav;
 // }
 
 // export default Nav;
+// import { className } from "postcss-selector-parser";

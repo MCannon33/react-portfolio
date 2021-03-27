@@ -23,12 +23,6 @@ function Switch(props) {
         return <Home />;
     }
   };
-  return (
-    <div>
-      {/* <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> */}
-
-      <div>{renderPage(props.currentPage)}</div>
-    </div>
-  );
+  return <div>{renderPage(props.currentPage)}</div>;
 }
 export default Switch;
