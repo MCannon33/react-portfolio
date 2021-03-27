@@ -1,3 +1,12 @@
+# Social-Media-Api
+
+## Description
+
+**Front end only app using ReAct. Building a portfolio using ReAct componentes and some CSS. Click on images in the portfolio tab to see previous work. (Future CSS updates neeeded to make this more dynamic and clean)**
+_REACT 101_
+
+[GitHub](https://github.com/MCannon33/react-portfolio)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
