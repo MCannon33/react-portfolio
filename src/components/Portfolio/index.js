@@ -1,5 +1,10 @@
 import React from "react";
-import earthquake from "../../assets/earthquake.jpeg";
+import earthquaketwo from "../../assets/earthquaketwo.jpeg";
+import first from "../../assets/first.png";
+import quiz from "../../assets/quiz.jpeg";
+import madlib from "../../assets/madlib.jpeg";
+import budget from "../../assets/budget.jpeg";
+import cap from "../../assets/cap.jpeg";
 
 function Portfolio() {
   return (
@@ -9,70 +14,84 @@ function Portfolio() {
       <div class="serv">
         <ul>
           <li>
-            1{" "}
+            {" "}
             <a href="https://jbeedle19.github.io/movers-not-shakers/">
               <img
-                src={earthquake}
+                src={earthquaketwo}
                 className="my-2"
                 style={{ width: "50%" }}
                 alt="project1"
               />
             </a>
+            <div>
+              <h3>Movers Not Shakers</h3>
+            </div>
           </li>
           <li>
-            2{" "}
+            {" "}
             <a href="https://mcannon33.github.io/mlc-profile.github.io/">
               <img
-                src={earthquake}
+                src={first}
                 className="my-2"
                 style={{ width: "50%" }}
-                alt="project1"
+                alt="profile1"
               />
             </a>
+            <div>
+              <h3>My First Portfolio</h3>
+            </div>
           </li>
           <li>
-            3
-            <a href="https://jbeedle19.github.io/movers-not-shakers/">
+            <a href="https://mcannon33.github.io/code-quiz/">
               <img
-                src={earthquake}
+                src={quiz}
                 className="my-2"
                 style={{ width: "50%" }}
-                alt="project1"
+                alt="quiz"
               />
             </a>
+            <div>
+              <h3>Code Quiz</h3>
+            </div>
           </li>
           <li>
-            4
-            <a href="https://jbeedle19.github.io/movers-not-shakers/">
+            <a href="https://desolate-beyond-80538.herokuapp.com/">
               <img
-                src={earthquake}
+                src={madlib}
                 className="my-2"
                 style={{ width: "50%" }}
-                alt="project1"
+                alt="madlib"
               />
             </a>
+            <div>
+              <h3>Mad Libs</h3>
+            </div>
           </li>
           <li>
-            5
-            <a href="https://jbeedle19.github.io/movers-not-shakers/">
+            <a href="https://fast-ravine-30891.herokuapp.com/">
               <img
-                src={earthquake}
+                src={budget}
                 className="my-2"
                 style={{ width: "50%" }}
-                alt="project1"
+                alt="budgettracker"
               />
             </a>
+            <div>
+              <h3>Budget Tracker</h3>
+            </div>
           </li>
           <li>
-            6
-            <a href="https://jbeedle19.github.io/movers-not-shakers/">
+            <a href="https://capitolcommunicator.com/maria-cannon-joins-crosby-marketing-communications-as-digital-program-manager/">
               <img
-                src={earthquake}
+                src={cap}
                 className="my-2"
                 style={{ width: "50%" }}
                 alt="project1"
               />
             </a>
+            <div>
+              <h3>Work History</h3>
+            </div>
           </li>
         </ul>
       </div>
