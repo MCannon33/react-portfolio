@@ -1,7 +1,5 @@
 # React App 101
 
-## Description
-
 **Front end only app using ReAct. Building a portfolio using ReAct componentes and some CSS. Click on images in the portfolio tab to see previous work. (Future CSS updates neeeded to make this more dynamic and clean)**
 _REACT 101_
 
