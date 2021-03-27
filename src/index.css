@@ -118,3 +118,15 @@ button {
   margin-bottom: 30px;
   padding: 10px 15px;
 }
+.servone ul {
+  display: flex;
+  flex-wrap: row;
+  padding-left: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.servone ul li {
+  list-style: none;
+  flex: 0 0 30.333333%;
+}
